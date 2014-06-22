@@ -35,9 +35,7 @@ public class RollDice extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState); 
 		setContentView(R.layout.activity_roll_dice);
-		
-		mResources = getResources();
-		
+				
 		rollButton = (Button)findViewById(R.id.btn_roll);
 		diceNumText = (TextView) findViewById(R.id.dice_num);
 		diceImage = (ImageView) findViewById(R.id.img_dice);
