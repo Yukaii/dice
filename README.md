@@ -12,11 +12,13 @@ Press "Roll" Button to generate random number and change to responding dice imag
 
 ##Code Review
 
-	Bitmap dices[] = new Bitmap[6];
+```java
+Bitmap dices[] = new Bitmap[6];
+```
 
 use Bitmap array to handle all dice images
 
-```
+```java
 diceImage.post(new Runnable() {
 	
 	@Override
